@@ -16,7 +16,6 @@ def get_letter_grade(percentage):
     else:
         return "F"
 
-# Example usage
 grade = float(input("Enter your grade percentage: "))
 print("Your letter grade is:", get_letter_grade(grade))
 num1 = float(input("Enter first number: "))
